@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD36E3872875974B002F41A4 /* The_Warehouse_GroupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36E3862875974B002F41A4 /* The_Warehouse_GroupApp.swift */; };
+		DD36E3892875974B002F41A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36E3882875974B002F41A4 /* ContentView.swift */; };
+		DD36E38B2875974D002F41A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD36E38A2875974D002F41A4 /* Assets.xcassets */; };
+		DD36E38E2875974D002F41A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD36E38D2875974D002F41A4 /* Preview Assets.xcassets */; };
+		DD36E3982875974D002F41A4 /* The_Warehouse_GroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36E3972875974D002F41A4 /* The_Warehouse_GroupTests.swift */; };
+		DD36E3A22875974D002F41A4 /* The_Warehouse_GroupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36E3A12875974D002F41A4 /* The_Warehouse_GroupUITests.swift */; };
+		DD36E3A42875974D002F41A4 /* The_Warehouse_GroupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD36E3A32875974D002F41A4 /* The_Warehouse_GroupUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD36E3942875974D002F41A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD36E37B2875974B002F41A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD36E3822875974B002F41A4;
+			remoteInfo = "The Warehouse Group";
+		};
+		DD36E39E2875974D002F41A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD36E37B2875974B002F41A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD36E3822875974B002F41A4;
+			remoteInfo = "The Warehouse Group";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD36E3832875974B002F41A4 /* The Warehouse Group.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Warehouse Group.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD36E3862875974B002F41A4 /* The_Warehouse_GroupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Warehouse_GroupApp.swift; sourceTree = "<group>"; };
+		DD36E3882875974B002F41A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD36E38A2875974D002F41A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD36E38D2875974D002F41A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD36E3932875974D002F41A4 /* The Warehouse GroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Warehouse GroupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD36E3972875974D002F41A4 /* The_Warehouse_GroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Warehouse_GroupTests.swift; sourceTree = "<group>"; };
+		DD36E39D2875974D002F41A4 /* The Warehouse GroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Warehouse GroupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD36E3A12875974D002F41A4 /* The_Warehouse_GroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Warehouse_GroupUITests.swift; sourceTree = "<group>"; };
+		DD36E3A32875974D002F41A4 /* The_Warehouse_GroupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Warehouse_GroupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD36E3802875974B002F41A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36E3902875974D002F41A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36E39A2875974D002F41A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD36E37A2875974B002F41A4 = {
+			isa = PBXGroup;
+			children = (
+				DD36E3852875974B002F41A4 /* The Warehouse Group */,
+				DD36E3962875974D002F41A4 /* The Warehouse GroupTests */,
+				DD36E3A02875974D002F41A4 /* The Warehouse GroupUITests */,
+				DD36E3842875974B002F41A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD36E3842875974B002F41A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD36E3832875974B002F41A4 /* The Warehouse Group.app */,
+				DD36E3932875974D002F41A4 /* The Warehouse GroupTests.xctest */,
+				DD36E39D2875974D002F41A4 /* The Warehouse GroupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD36E3852875974B002F41A4 /* The Warehouse Group */ = {
+			isa = PBXGroup;
+			children = (
+				DD36E3862875974B002F41A4 /* The_Warehouse_GroupApp.swift */,
+				DD36E3882875974B002F41A4 /* ContentView.swift */,
+				DD36E38A2875974D002F41A4 /* Assets.xcassets */,
+				DD36E38C2875974D002F41A4 /* Preview Content */,
+			);
+			path = "The Warehouse Group";
+			sourceTree = "<group>";
+		};
+		DD36E38C2875974D002F41A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD36E38D2875974D002F41A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD36E3962875974D002F41A4 /* The Warehouse GroupTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD36E3972875974D002F41A4 /* The_Warehouse_GroupTests.swift */,
+			);
+			path = "The Warehouse GroupTests";
+			sourceTree = "<group>";
+		};
+		DD36E3A02875974D002F41A4 /* The Warehouse GroupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD36E3A12875974D002F41A4 /* The_Warehouse_GroupUITests.swift */,
+				DD36E3A32875974D002F41A4 /* The_Warehouse_GroupUITestsLaunchTests.swift */,
+			);
+			path = "The Warehouse GroupUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD36E3822875974B002F41A4 /* The Warehouse Group */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD36E3A72875974D002F41A4 /* Build configuration list for PBXNativeTarget "The Warehouse Group" */;
+			buildPhases = (
+				DD36E37F2875974B002F41A4 /* Sources */,
+				DD36E3802875974B002F41A4 /* Frameworks */,
+				DD36E3812875974B002F41A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Warehouse Group";
+			productName = "The Warehouse Group";
+			productReference = DD36E3832875974B002F41A4 /* The Warehouse Group.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD36E3922875974D002F41A4 /* The Warehouse GroupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD36E3AA2875974D002F41A4 /* Build configuration list for PBXNativeTarget "The Warehouse GroupTests" */;
+			buildPhases = (
+				DD36E38F2875974D002F41A4 /* Sources */,
+				DD36E3902875974D002F41A4 /* Frameworks */,
+				DD36E3912875974D002F41A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD36E3952875974D002F41A4 /* PBXTargetDependency */,
+			);
+			name = "The Warehouse GroupTests";
+			productName = "The Warehouse GroupTests";
+			productReference = DD36E3932875974D002F41A4 /* The Warehouse GroupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD36E39C2875974D002F41A4 /* The Warehouse GroupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD36E3AD2875974D002F41A4 /* Build configuration list for PBXNativeTarget "The Warehouse GroupUITests" */;
+			buildPhases = (
+				DD36E3992875974D002F41A4 /* Sources */,
+				DD36E39A2875974D002F41A4 /* Frameworks */,
+				DD36E39B2875974D002F41A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD36E39F2875974D002F41A4 /* PBXTargetDependency */,
+			);
+			name = "The Warehouse GroupUITests";
+			productName = "The Warehouse GroupUITests";
+			productReference = DD36E39D2875974D002F41A4 /* The Warehouse GroupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD36E37B2875974B002F41A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DD36E3822875974B002F41A4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					DD36E3922875974D002F41A4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = DD36E3822875974B002F41A4;
+					};
+					DD36E39C2875974D002F41A4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = DD36E3822875974B002F41A4;
+					};
+				};
+			};
+			buildConfigurationList = DD36E37E2875974B002F41A4 /* Build configuration list for PBXProject "The Warehouse Group" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD36E37A2875974B002F41A4;
+			productRefGroup = DD36E3842875974B002F41A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD36E3822875974B002F41A4 /* The Warehouse Group */,
+				DD36E3922875974D002F41A4 /* The Warehouse GroupTests */,
+				DD36E39C2875974D002F41A4 /* The Warehouse GroupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD36E3812875974B002F41A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD36E38E2875974D002F41A4 /* Preview Assets.xcassets in Resources */,
+				DD36E38B2875974D002F41A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36E3912875974D002F41A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36E39B2875974D002F41A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD36E37F2875974B002F41A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD36E3892875974B002F41A4 /* ContentView.swift in Sources */,
+				DD36E3872875974B002F41A4 /* The_Warehouse_GroupApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36E38F2875974D002F41A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD36E3982875974D002F41A4 /* The_Warehouse_GroupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD36E3992875974D002F41A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD36E3A42875974D002F41A4 /* The_Warehouse_GroupUITestsLaunchTests.swift in Sources */,
+				DD36E3A22875974D002F41A4 /* The_Warehouse_GroupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD36E3952875974D002F41A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD36E3822875974B002F41A4 /* The Warehouse Group */;
+			targetProxy = DD36E3942875974D002F41A4 /* PBXContainerItemProxy */;
+		};
+		DD36E39F2875974D002F41A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD36E3822875974B002F41A4 /* The Warehouse Group */;
+			targetProxy = DD36E39E2875974D002F41A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD36E3A52875974D002F41A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD36E3A62875974D002F41A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD36E3A82875974D002F41A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Warehouse Group/Preview Content\"";
+				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "buckshee.co.nz.The-Warehouse-Group";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD36E3A92875974D002F41A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Warehouse Group/Preview Content\"";
+				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "buckshee.co.nz.The-Warehouse-Group";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD36E3AB2875974D002F41A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "buckshee.co.nz.The-Warehouse-GroupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Warehouse Group.app/The Warehouse Group";
+			};
+			name = Debug;
+		};
+		DD36E3AC2875974D002F41A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "buckshee.co.nz.The-Warehouse-GroupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Warehouse Group.app/The Warehouse Group";
+			};
+			name = Release;
+		};
+		DD36E3AE2875974D002F41A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "buckshee.co.nz.The-Warehouse-GroupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Warehouse Group";
+			};
+			name = Debug;
+		};
+		DD36E3AF2875974D002F41A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TTZDAAVUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "buckshee.co.nz.The-Warehouse-GroupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Warehouse Group";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD36E37E2875974B002F41A4 /* Build configuration list for PBXProject "The Warehouse Group" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD36E3A52875974D002F41A4 /* Debug */,
+				DD36E3A62875974D002F41A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD36E3A72875974D002F41A4 /* Build configuration list for PBXNativeTarget "The Warehouse Group" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD36E3A82875974D002F41A4 /* Debug */,
+				DD36E3A92875974D002F41A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD36E3AA2875974D002F41A4 /* Build configuration list for PBXNativeTarget "The Warehouse GroupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD36E3AB2875974D002F41A4 /* Debug */,
+				DD36E3AC2875974D002F41A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD36E3AD2875974D002F41A4 /* Build configuration list for PBXNativeTarget "The Warehouse GroupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD36E3AE2875974D002F41A4 /* Debug */,
+				DD36E3AF2875974D002F41A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD36E37B2875974B002F41A4 /* Project object */;
+}
