@@ -30,7 +30,7 @@ extension ProductView{
          */
         
         func fetchPrice(barcode : String) async  {
-            let params = "Barcode=\(barcode)&MachineID=\(APIConstants.machineID)(search)&UserID=\(UserDefaults.standard.getUserID() ?? "")"
+            let params = "Barcode=\(barcode)&MachineID=\(APIConstants.machineID)&UserID=\(UserDefaults.standard.getUserID() ?? "")"
             do{
                 let price = try await fetchPriceService.fetchPrice(queryParam: params)
                 self.price = price

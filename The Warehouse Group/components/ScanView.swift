@@ -10,7 +10,6 @@ import CodeScanner
 
 struct ScanView: View {
     @State private var isShowingScanner = false
-//    @State private var isShowing = false
     @State private var actionState: Int? = 0
     @State  private var  value: String = ""
     var body: some View {
@@ -40,8 +39,6 @@ struct ScanView: View {
         case .success(let result):
             value = result.string
             self.actionState = 1
-//            print(scanBarcode)
-//            isShowing = true
         case .failure(let error):
             print("Scanning failed: \(error.localizedDescription)")
         }

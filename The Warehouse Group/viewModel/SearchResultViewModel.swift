@@ -44,7 +44,6 @@ extension ProductListView{
             do{
                 let searchResult = try await fetchSearchResultService.fetchSearchResult(queryParam: params)
                 let value  = searchResult.results.map {$0.products!}.reduce([], +).filter{$0.description != nil}
-                print (value)
                 self.products.append(contentsOf: value)
                 startIndex += perPage + 1
             } catch{

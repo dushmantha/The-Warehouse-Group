@@ -7,6 +7,7 @@ A project that uses SwiftUI and swift 5.5, MVVM for software architecture.
 ## New swift(swift 5.5) features used
 - Async/await
 - Actors(@MainActor)
+- MVVM + Dependency Injection in SwiftUI | Unit Testing
 
 ## Compatibility
 - Xcode 13.2
@@ -58,7 +59,9 @@ This API requires a BranchID. For this exercise, just use 208 as the branch ID.
 
  ### Unit test : covered
 - functional testing covered
-<img src = "screenshot/unit-test1.png" width = "200" hight = "420"> <img src = "screenshot/unit-test12.png" width = "200" hight = "420">
+
+ ## Unit test Report
+<img src = "screenshot/unit-test1.png" width = "300" hight = "620"> <img src = "screenshot/unit-test2.png" width = "300" hight = "620">
 
 ## Project Folder structure
 <img src = "screenshot/folderstructure.png" width = "300" hight = "420">

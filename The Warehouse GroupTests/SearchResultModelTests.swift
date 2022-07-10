@@ -38,9 +38,15 @@ class SearchResultModelTests: XCTestCase {
     }
 
     @MainActor  func testSearchResult() async throws {
-        await viewModel.fetchSearchResult(search: "A", isLoadMore: false)
+        await viewModel.fetchSearchResult(search: "A", isLoadMore: true)
         XCTAssertEqual(viewModel.products.count, 2)
         XCTAssertEqual(viewModel.startIndex, 21)
+    }
+    
+    @MainActor  func testSearchResultEmpty() async throws {
+        await viewModel.fetchSearchResult(search: "", isLoadMore: false)
+        XCTAssertEqual(viewModel.products.count, 0)
+        XCTAssertEqual(viewModel.startIndex, 0)
     }
     
     @MainActor  func testErrorUser() async throws {
