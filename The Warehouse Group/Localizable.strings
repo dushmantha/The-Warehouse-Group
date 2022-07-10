@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  The Warehouse Group
+
+  Created by Tharaka Dushmantha on 9/07/22.
+  
+*/
+"product.list" = "Product List";
+"network.error.title" = "Network Error";
+"network.error.description" = "Please check your netword connection and retry";
+"emptydata.title" = "Oops!";
+"emptydata.description" = "No data found";
+"price" = "Price";
+"loading" = "Loading...";

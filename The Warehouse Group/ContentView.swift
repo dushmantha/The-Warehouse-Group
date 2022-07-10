@@ -8,9 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var userViewModel = NewUserViewModelImplementation(
+        fetchNewUserService: FetchNewUserServiceImplementation())
+        
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if UserDefaults.standard.getUserID() != nil {
+            ProductListView()
+        } else {
+            ZStack{
+                if userViewModel.userID == nil && userViewModel.error == nil {
+                    LoadingView(text: NSLocalizedString("loading", comment: "loading data from api"))
+                }
+                
+                else if userViewModel.error != nil {
+                    ErrorView()
+                }
+                else {
+                    ProductListView()
+                }
+            }.task {
+                await userViewModel.fetchNewUser()
+            }
+        }
+    
     }
 }
 

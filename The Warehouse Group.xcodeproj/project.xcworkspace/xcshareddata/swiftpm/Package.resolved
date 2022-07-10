@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "codescanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/CodeScanner",
+      "state" : {
+        "revision" : "04ea970273e83d8152e8a1c59a7d45f88cdadfee",
+        "version" : "2.1.2"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "2235a22ca249199cb736237f4bb9cc12b6ed416a",
+        "version" : "7.3.0"
+      }
+    }
+  ],
+  "version" : 2
+}
